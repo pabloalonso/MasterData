@@ -1,0 +1,38 @@
+<uib-tabset class="tabs-left">
+    <uib-tab heading="{{ 'Usage' | translate }}" index="'usage'">
+        <p translate>Use this widget to: </p>
+        <ul>
+            <li translate>Handle toastrs (short notifications)</li>
+        </ul>
+        <p translate>For Instance to let users know when a successful rest call is done: </p>
+        <ul>
+            <li translate>Create a new variable of type <em>json</em> named <em>toastrs</em> with value <p><translate><pre>[]</pre></translate></p></li>
+            <li translate>Create a new variable of type javascript expression with the following code.
+<p ><translate>
+            <pre>
+//add your condition to trigger the notification here
+//if( ... ){
+    var toast = {};
+//Style that will be used:
+// primary, success, info, warning, danger
+    toast.type = "success";
+ // Title of you notification
+    toast.title = "Your call has been successful";
+// Text you would like to show in the notification
+    toast.body = "";
+// Milliseconds that the toastr will be displayed
+    toast.timeout = 3000;
+// Push this toast into collection to publish
+    $data.toastrs.push(toast);
+// If you added a condition, uncomment following line
+//}
+            </pre>
+</translate></p>
+            </li>
+            <li translate>Bind the <em>toastrs</em> variable of your form to the property <em>toastrs</em></li>
+        </ul>
+        <p translate>This widget is based on the You can find a detailed documentation on its <a target="_blank" href="https://github.com/jirikavi/AngularJS-Toaster"> github documentation</a> </p>
+
+    </uib-tab>
+
+</uib-tabset>
