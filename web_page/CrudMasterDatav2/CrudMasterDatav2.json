@@ -2,7 +2,7 @@
   "designerVersion" : "1.9.45",
   "id" : "CrudMasterDatav2",
   "name" : "CrudMasterDatav2",
-  "lastUpdate" : 1560950433905,
+  "lastUpdate" : 1560950812214,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
@@ -117,7 +117,7 @@
             "xs" : 12,
             "sm" : 12,
             "md" : 6,
-            "lg" : 6
+            "lg" : 4
           },
           "propertyValues" : {
             "cssClasses" : {
@@ -181,7 +181,7 @@
             "xs" : 12,
             "sm" : 12,
             "md" : 2,
-            "lg" : 6
+            "lg" : 4
           },
           "propertyValues" : {
             "cssClasses" : {
@@ -259,7 +259,94 @@
               "type" : "variable"
             }
           },
-          "reference" : "b40c3926-0e8c-427f-b77b-6104daf4673a",
+          "reference" : "62027df2-189d-4d45-aa4e-63f976504ca8",
+          "hasValidationError" : false,
+          "id" : "pbButton"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "expression",
+              "value" : "!applicationSelected.name"
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Edit / Delete selected Application"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "buttonStyle" : {
+              "type" : "constant",
+              "value" : "warning"
+            },
+            "action" : {
+              "type" : "constant",
+              "value" : "Open modal"
+            },
+            "assign" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "url" : {
+              "type" : "interpolation"
+            },
+            "responseStatusCode" : {
+              "type" : "variable",
+              "value" : ""
+            },
+            "dataToSend" : {
+              "type" : "constant"
+            },
+            "dataFromSuccess" : {
+              "type" : "variable",
+              "value" : ""
+            },
+            "closeOnSuccess" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "dataFromError" : {
+              "type" : "variable",
+              "value" : ""
+            },
+            "targetUrlOnSuccess" : {
+              "type" : "interpolation"
+            },
+            "collectionToModify" : {
+              "type" : "variable"
+            },
+            "modalId" : {
+              "type" : "constant",
+              "value" : "ModalEditDeleteApplication"
+            },
+            "collectionPosition" : {
+              "type" : "constant",
+              "value" : "Last"
+            },
+            "valueToAdd" : {
+              "type" : "constant"
+            },
+            "removeItem" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "274cbe52-b95a-44b7-9ef6-1dbf782bf915",
           "hasValidationError" : false,
           "id" : "pbButton"
         } ] ]
@@ -291,7 +378,7 @@
         "value" : true
       }
     },
-    "reference" : "4e943d06-b1a2-49d7-8a90-193abc675ef1",
+    "reference" : "473a662b-bc1c-4cf9-83c2-7ce8483c8447",
     "hasValidationError" : false,
     "id" : "pbModalContainer",
     "container" : {
@@ -300,7 +387,7 @@
         "xs" : 12
       },
       "propertyValues" : { },
-      "reference" : "675d3910-6bbd-4e1e-9485-3ae89542172d",
+      "reference" : "f4c090fc-ed97-4467-8142-1a5480c23fae",
       "hasValidationError" : false,
       "id" : "pbContainer",
       "rows" : [ [ {
@@ -333,7 +420,7 @@
             "value" : "left"
           }
         },
-        "reference" : "ae0b85a5-72db-4a26-a038-d1126ffdd68f",
+        "reference" : "f6b9d2a4-61d7-4fa2-850e-13811bebee82",
         "hasValidationError" : false,
         "id" : "pbTitle"
       } ], [ {
@@ -354,7 +441,7 @@
             "value" : false
           }
         },
-        "reference" : "5ec4742e-1125-4dfb-8170-ead151691b9c",
+        "reference" : "1e9a46f6-4f01-49af-a8b1-3ac6884b9161",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -363,7 +450,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "bd7110fc-9888-4541-a14b-3c0b5b8cd984",
+          "reference" : "b3c97cbe-e691-46ab-a26e-4f678528dce1",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [ [ {
@@ -388,7 +475,7 @@
                 "value" : ""
               }
             },
-            "reference" : "500f809f-d6ab-4f34-a574-153a34ccbcf9",
+            "reference" : "5d7ee3de-437d-43cf-b801-384994a11270",
             "hasValidationError" : false,
             "id" : "pbContainer",
             "rows" : [ [ {
@@ -462,7 +549,7 @@
                   "value" : 1
                 }
               },
-              "reference" : "dc4acd52-dab2-411b-a5ed-5eb400d64a0b",
+              "reference" : "28a94a4d-725b-451b-bb1e-201453844766",
               "hasValidationError" : false,
               "id" : "pbInput"
             } ], [ {
@@ -536,7 +623,7 @@
                   "value" : 1
                 }
               },
-              "reference" : "3042b8c7-2aaa-493e-a5bc-83aacb86847b",
+              "reference" : "350a7bae-e5c8-49a1-b53f-3b7c24f2d0c3",
               "hasValidationError" : false,
               "id" : "pbInput"
             } ], [ {
@@ -610,7 +697,7 @@
                   "value" : 1
                 }
               },
-              "reference" : "f2009d75-a478-4d47-b83f-71a3a70fb7f1",
+              "reference" : "705de1d0-c374-4c40-9b02-a40610e2a2c9",
               "hasValidationError" : false,
               "id" : "pbInput"
             } ], [ {
@@ -684,7 +771,7 @@
                   "value" : 1
                 }
               },
-              "reference" : "8e2319ec-a27d-4f61-b4ec-f8ae40474c4b",
+              "reference" : "2d61f335-ec9a-4eda-ae66-2109a5586d36",
               "hasValidationError" : false,
               "id" : "pbInput"
             } ], [ {
@@ -721,7 +808,7 @@
                   "value" : "newApplicationTemplate.enabled"
                 }
               },
-              "reference" : "05326510-71d6-484c-b488-ac1202810507",
+              "reference" : "f3a8ab48-c1f3-41f8-8b50-8df2f536145e",
               "hasValidationError" : false,
               "id" : "pbCheckbox"
             } ] ]
@@ -811,7 +898,7 @@
                 "type" : "variable"
               }
             },
-            "reference" : "af0e75a8-8c28-4025-9726-0998814f3b8c",
+            "reference" : "8e6b6768-de85-4116-83f5-5c68212aa0cc",
             "hasValidationError" : false,
             "id" : "pbButton"
           } ], [ {
@@ -860,7 +947,7 @@
                 "value" : "left"
               }
             },
-            "reference" : "30fcaaa1-d2b1-4c51-9e2b-43a27dde8560",
+            "reference" : "263b02b3-1433-4475-a68e-0ff9245e3604",
             "hasValidationError" : false,
             "id" : "pbText"
           } ] ]
