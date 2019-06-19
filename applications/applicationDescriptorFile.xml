@@ -4,7 +4,12 @@
         <displayName>Master Data Mgmt</displayName>
         <applicationPages>
             <applicationPage customPage="custompage_CrudMasterDatav1" token="home"/>
+            <applicationPage customPage="custompage_CrudMasterDatav2" token="v2"/>
         </applicationPages>
-        <applicationMenus/>
+        <applicationMenus>
+            <applicationMenu applicationPage="v2">
+                <displayName>V2</displayName>
+            </applicationMenu>
+        </applicationMenus>
     </application>
 </applications>
