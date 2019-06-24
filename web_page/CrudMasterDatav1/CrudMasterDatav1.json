@@ -3,7 +3,7 @@
   "previousDesignerVersion" : "1.7.57",
   "id" : "CrudMasterDatav1",
   "name" : "CrudMasterDatav1",
-  "lastUpdate" : 1560938197248,
+  "lastUpdate" : 1560949001824,
   "rows" : [ [ {
     "type" : "container",
     "dimension" : {
